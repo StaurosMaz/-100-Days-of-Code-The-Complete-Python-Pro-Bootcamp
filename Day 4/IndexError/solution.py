@@ -7,7 +7,7 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
 print(states_of_america[49])  # No error
-print(states_of_america[50])  # IndexError
+  # IndexError
 
 # Using len() to find the number of items in a List
 num_states = len(states_of_america)
@@ -22,3 +22,4 @@ vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
 
 dirty_dozen = [fruits, vegetables]
 print(dirty_dozen)
+print(dirty_dozen[1][2])
