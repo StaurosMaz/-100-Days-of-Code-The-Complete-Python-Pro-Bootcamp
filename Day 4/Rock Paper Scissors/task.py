@@ -38,6 +38,6 @@ elif player_choice == 2 and comp_choice==1:
 elif player_choice == comp_choice:
     print("Draw")
 else:
-    print("you lose")
+    print("you lose ")
 
 
